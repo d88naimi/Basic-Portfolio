@@ -119,6 +119,9 @@ a{
 #connectMe{
 	font-size: 25px;
 	font-weight: bold;
+    margin-bottom: 45px;
+	 margin-right: 15px;
+    border-bottom: 1px solid #dddddd;
 }
 
 
@@ -140,16 +143,17 @@ h4, h2{
 	background: #ffffff;
 	border: 5px solid #cccccc;
 	float: left;
-	width: 630px;
+	width: 620px;
 }
 
 .contactInfo{
 	
 	border: 5px solid #cccccc;
 	float: left;
-	    width: 640px;
-    height: 400px;
+	 width: 640px;
+    height: 515px;
     background-color: #ffffff;
+
 	
 
 }
@@ -164,31 +168,71 @@ h4, h2{
 }
 
 .portfolio_container{
-	    width: 960px;
+	width: 960px;
     height: 500px;
     margin: 0 auto;
     margin-top: 35px;
 }
-
-
-.portfolioimg{
+#portfolioimg{
 	width: 280px;
 	height: 200px;
 	margin:10px;
-	/*position: relative;*/
+	
 }
+/*portfolio image with text inside*/
+
+.portfolioimg1{
+	width: 280px;
+	height: 200px;
+	margin:10px;
+	position: relative; 
+	float: left;
+}
+
+
+ span {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 3px;
+	bottom: 0;
+	position: absolute;
+	
+
+}
+
+
+
 
 #portfoliome {
 	  margin-left: 15px;
     margin-right: 20px;
 }
 
-
-.portfolioimg1 span {
-	background-color: #4aaaa5;
-	color: #ffffff;
-	text-align: center;
+.inputfield{
+	width: 600px;
+	margin:20px;
 	padding: 3px;
+
+}
+
+.textfield{
+margin-left: 21px;
+margin-top: 13px;
+font-size: 20px;
+color: #777777;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#textbox {
+	height: 140px;
+}
+
+.submitbutton{
+	color: #ffffff;
+	background-color: #4aaaa5;
+	font-size: 25px;
+	margin-left: 21px;
 
 }
 
