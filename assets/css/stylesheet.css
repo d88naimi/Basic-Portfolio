@@ -30,13 +30,11 @@ header{
 	
 	background-color: #ffffff;
 	height: 100px;
-	margin-bottom: 68px;
-			
+	margin-bottom: 68px;		
 	font-family: Georgia, Times, Times New Roman, serif;
 	border-bottom: 2px solid #cccccc;
 	overflow: auto;
 	display: block;
-
 	width: 960px;
     margin: 0 auto;
 
@@ -44,6 +42,14 @@ header{
 
 #about, #portfolio {  border-right: 1px solid #dddddd;
 padding-right: 5px;
+}
+
+#aboutme #portfolio {
+	font-size: 35px;
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-bottom: 2px solid #dddddd;
 }
 
 
@@ -64,7 +70,6 @@ a{
 
 
 .about_container{
-
 	clear: both;
 	background-color: #ffffff;
 	border: 3px solid #cccccc;
@@ -84,9 +89,8 @@ a{
 
 #namecontainer{
 	float: left;
-	background-color: #4aaaa5;
-	
-	    height: 100px;
+	background-color: #4aaaa5;	
+	height: 100px;
     width: 223px;
     
 }
@@ -97,31 +101,31 @@ a{
 	background-color: #ffffff;
     width: 648px;
     border: 1px solid #dddddd;
-    float: left;
-    
+    float: left;   
     line-height: 150%;
 
 }
 
 
 .connectcontainer{
-	    float: right;
+	 float: right;
     width: 228px;
     background-color: #ffffff;
-    
     border: 1px solid #dddddd;
     padding-bottom: 10px;
     padding-left: 10px;
-    	border: 3px solid #cccccc;
+        padding-top: 12px;
+    border: 3px solid #cccccc;
 
 }
 
 #connectMe{
 	font-size: 25px;
 	font-weight: bold;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
 	 margin-right: 15px;
     border-bottom: 1px solid #dddddd;
+        color: #4aaaa5;
 }
 
 
@@ -133,10 +137,6 @@ a{
 	border-bottom: 3px solid #cccccc;
 }
 
-h4, h2{
-	text-align: center;
-	color: #4aaaa5;
-}
 
 #box{
 	display: inline-block;
@@ -153,19 +153,8 @@ h4, h2{
 	 width: 640px;
     height: 515px;
     background-color: #ffffff;
-
-	
-
 }
-#aboutme #portfolio {
-	font-size: 35px;
-	text-align: left;
-	margin-left: 20px;
-	margin-right: 20px;
-	border-bottom: 2px solid #dddddd;
 
-
-}
 
 .portfolio_container{
 	width: 960px;
@@ -189,24 +178,32 @@ h4, h2{
 	float: left;
 }
 
-
- span {
-	background-color: #4aaaa5;
-	color: #ffffff;
-	text-align: center;
-	padding: 3px;
-	bottom: 0;
-	position: absolute;
-	
-
+ h2 span  {
+    text-align: center;
+    width: 260px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    font-size: 25px;
 }
-
-
-
 
 #portfoliome {
 	  margin-left: 15px;
     margin-right: 20px;
+	margin-top: 5px;
+}
+
+#contactme{
+	margin-left: 15px;
+    margin-right: 20px;
+	margin-top: 5px;
 }
 
 .inputfield{
